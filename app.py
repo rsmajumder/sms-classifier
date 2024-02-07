@@ -2,10 +2,6 @@ import streamlit as st
 import pickle
 import nltk
 
-nltk.data.path.append("/path/to/nltk_data")
-nltk.download('stopwords')
-
-
 from nltk.corpus import stopwords
 import string
 from nltk.stem import PorterStemmer
